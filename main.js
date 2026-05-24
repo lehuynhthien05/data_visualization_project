@@ -1,3 +1,6 @@
+import * as d3 from "d3";
+import * as topojson from "topojson-client";
+
 const parseDate = d3.timeParse("%Y-%m-%d");
 const formatMonth = d3.timeFormat("%b %Y");
 
